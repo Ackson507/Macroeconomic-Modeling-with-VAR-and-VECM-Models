@@ -15,7 +15,7 @@ Multivariate Time Series Analysis – Macroeconomic Data and Its Impact on Finan
 - Applying transformations if necessary e.g. (log differencing, differencing).
   
 4️⃣ Building a forecasting model
-- In particular (VAR) modelto predict future values.
+- In particular Vector Autoregressive (VAR) to Vector Error Correction Model (VECM) model to predict future values.
   
 5️⃣ Evaluate economic implications on:
 -Banks and Microfinance Institution
