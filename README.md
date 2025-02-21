@@ -1,4 +1,4 @@
-# Multivariate-time-series-analysisMacroeconomic-Data.
+# Multivariate-time-series-analysis Macroeconomic-Data.
 Multivariate Time Series Analysis – Macroeconomic Data and Its Impact on Financial Institutions & Forex [CASE OF DEVELOPING COUNTRIES]📊
 
 📌 Introdcution
