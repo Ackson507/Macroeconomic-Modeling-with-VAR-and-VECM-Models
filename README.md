@@ -29,6 +29,13 @@ We will ensure your data is clean, complete, and in a consistent format (e.g., m
 Unlike univariate analysis, this step involves analyzing relationships between multiple variables. Exploratory data analysis (EDA) is useful by data scientists or analyst to analyze and investigate data sets and summarize their main characteristics, often employing data visualization methods. One tool which will be useful to analyze this relation is to 
 ![inflation and ir_trend](https://github.com/user-attachments/assets/9a1daf23-a595-454f-abcf-f4703a64b7f1)
 
+The relationship between interest rates and inflation is a fundamental concept in economics and monetary policy. The nature of this relationship can vary depending on the economic context, but in most cases, it is governed by the actions of central banks and the behavior of economic agents. In our regression results later in this study, the coefficient for interest rates (IR__) is 0.997028, with a p-value of 0.0000, indicating a positive and statistically significant relationship between interest rates and inflation. 
+
+Positive Relationship
+-A 1% increase in interest rates is associated with a 0.997% increase in inflation, holding other variables constant. This positive relationship may seem counterintuitive because, in theory, higher interest rates are expected to reduce inflation, but in this case it is not
+- QUESTION IS NOW WHY:
+
+
 ![Screenshot 2025-02-26 221058](https://github.com/user-attachments/assets/c4b1957b-2b45-4140-a3e8-1971a88033ee)
 
 
@@ -42,7 +49,8 @@ Applying transformations if necessary e.g. (log differencing, differencing). To 
   
 ## 4️⃣ Estimate a Regression Model and Choosing Estimation Method:
 A regression model is a statistical tool used to examine the relationship between a dependent variable (the outcome you want to explain, e.g., inflation) and one or more independent variables (the factors that may influence the outcome, e.g., interest rates, exchange rates, etc.). The goal is to quantify how changes in the independent variables affect the dependent variable.
-![Screenshot 2025-02-26 223207](https://github.com/user-attachments/assets/c606eff4-cc35-449e-ad43-025c99393512)
+![Screenshot 2025-02-26 223207](https://github.com/user-attachments/assets/f7d3639e-a9d2-498e-bfaf-42cd49ed636e)
+
 
 The model explains about 46% of the variation in inflation, with Interest Rate, FOREX_K/USD, and BoZ_Reserve being the most significant predictors. However, the presence of autocorrelation and the insignificance of some variables suggest the need for model improvements. Addressing these issues will lead to more reliable and insightful results.
 
