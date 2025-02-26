@@ -22,15 +22,17 @@ Below are the simplified definition our what we will be working with, independen
 
 - Maize_(K'/50Kg): Price of maize per 50 kg in Kwacha (independent variable).
 
-
+We will ensure your data is clean, complete, and in a consistent format (e.g., monthly time series), Handle missing values (e.g., interpolation or removal) and Normalize or scale the data if necessary (e.g., if variables are in different units).
   
-2️⃣ Time-series decomposition.
+2️⃣ Exloratory Data Analysis [EDA] and Formulate Hypotheses.
 
-Unlike univariate decomposition, this step involves analyzing relationships between variables.
+Unlike univariate analysis, this step involves analyzing relationships between multiple variables. Exploratory data analysis (EDA) is useful by data scientists or analyst to analyze and investigate data sets and summarize their main characteristics, often employing data visualization methods. One tool which will be useful to analyze this relation is to 
 
-🔹 Trend Analysis: Does inflation affect interest rates over time?
+- Formulate General Hypotheses: Formulate hypotheses as a whole (i.e., testing the overall relationship between inflation and the other variables) rather than one-by-one, you can use Pearson correlation to assess the strength and direction of the linear relationships between inflation and each independent variable.
 
-🔹 Seasonality Analysis: Do forex fluctuations follow predictable patterns?
+- Null Hypothesis (H₀): There is no significant linear relationship between inflation and the independent variable (ρ = 0).
+
+- Alternative Hypothesis (H₁): There is a significant linear relationship between inflation and the independent variable (ρ ≠ 0).
   
 3️⃣ Testing for stationarity and Unit Root.
 
