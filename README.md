@@ -27,30 +27,26 @@ We will ensure your data is clean, complete, and in a consistent format (e.g., m
 ## 2️⃣ Exloratory Data Analysis [EDA] and Formulate Hypotheses.
 
 Unlike univariate analysis, this step involves analyzing relationships between multiple variables. Exploratory data analysis (EDA) is useful by data scientists or analyst to analyze and investigate data sets and summarize their main characteristics, often employing data visualization methods. One tool which will be useful to analyze this relation is to 
+![inflation and ir_trend](https://github.com/user-attachments/assets/9a1daf23-a595-454f-abcf-f4703a64b7f1)
 
-- Formulating General Hypotheses: 
-Formulate hypotheses as a whole (i.e., testing the overall relationship between inflation and the other variables) rather than one-by-one, we will use Pearson correlation to assess the strength and direction of the linear relationships between inflation and each independent variable.
+![Screenshot 2025-02-26 221058](https://github.com/user-attachments/assets/c4b1957b-2b45-4140-a3e8-1971a88033ee)
 
-- Null Hypothesis (H₀): There is no significant linear relationship between inflation and the independent variable (ρ = 0).
 
-- Alternative Hypothesis (H₁): There is a significant linear relationship between inflation and the independent variable (ρ ≠ 0).
   
 ## 3️⃣ Testing for stationarity and Unit Root.
 
-Applying transformations if necessary e.g. (log differencing, differencing). To ensure accurate modeling, we must check whether our time-series data is stationary and whether the variables move together over time (cointegration).
+Applying transformations if necessary e.g. (log differencing, differencing). To ensure accurate modeling, we must check whether our time-series data is stationary and whether the variables move together over time (cointegration). Using ADF we managed to test for stationary and applied difference method to non_stationary series to convert them to station in readiness for dbuilding effective regression model or equation.
+![Screenshot 2025-02-26 220448](https://github.com/user-attachments/assets/92b1c660-c738-43c8-b810-50476421d30d)
+
+
   
-### Estimate a Regression Model and Choosing Estimation Method:
+## 4️⃣ Estimate a Regression Model and Choosing Estimation Method:
 A regression model is a statistical tool used to examine the relationship between a dependent variable (the outcome you want to explain, e.g., inflation) and one or more independent variables (the factors that may influence the outcome, e.g., interest rates, exchange rates, etc.). The goal is to quantify how changes in the independent variables affect the dependent variable.
-  
-## 4️⃣ Building a forecasting model. 
+![Screenshot 2025-02-26 223207](https://github.com/user-attachments/assets/c606eff4-cc35-449e-ad43-025c99393512)
 
-In particular Vector Autoregressive (VAR) to Vector Error Correction Model (VECM) model to predict future value, to do this we will use:
+The model explains about 46% of the variation in inflation, with Interest Rate, FOREX_K/USD, and BoZ_Reserve being the most significant predictors. However, the presence of autocorrelation and the insignificance of some variables suggest the need for model improvements. Addressing these issues will lead to more reliable and insightful results.
 
-🔹 Vector Autoregression (VAR): Best for short-term forecasting of interdependent variables.
+Durbin-Watson Statistic: 0.156233
+Interpretation: The Durbin-Watson statistic tests for autocorrelation in the residuals. A value close to 2 indicates no autocorrelation. Here, the value is far below 2, suggesting strong positive autocorrelation in the residuals. This violates the OLS assumption of no autocorrelation and may lead to biased standard errors and unreliable hypothesis tests
 
-🔹 Vector Error Correction Model (VECM): Best for modeling long-term equilibrium relationships between macroeconomic indicators.
 
-## 5️⃣ Evaluate economic implications on:
-
--Banks and Microfinance Institution
--Forex.
