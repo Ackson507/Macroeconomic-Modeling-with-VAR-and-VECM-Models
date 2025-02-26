@@ -38,7 +38,8 @@ Positive Relationship
 Below is a description of each indicator variable, looking at the mean value for the period and extremes of each variable such as maximum and minimum occurrence during this period. Highlighted figures such as inflation mean was 11.70%. Inflation during this period reached a maximum of 24.6% and a minimum of 6.1%. The BoZ inflation target is between 6-8%, which seems been a challenge for the central bank to maintain as seen from the trend above.
 
 ![Screenshot 2025-02-26 221058](https://github.com/user-attachments/assets/c4b1957b-2b45-4140-a3e8-1971a88033ee)
-![other](https://github.com/user-attachments/assets/20808bef-7b69-4644-937d-f27afb5641b8)
+
+![other](https://github.com/user-attachments/assets/469aceb9-a531-4ec6-ad6b-7f0181a3d082)
 
 
   
