@@ -39,7 +39,8 @@ Formulate hypotheses as a whole (i.e., testing the overall relationship between 
 
 Applying transformations if necessary e.g. (log differencing, differencing). To ensure accurate modeling, we must check whether our time-series data is stationary and whether the variables move together over time (cointegration).
   
-🔹 Augmented Dickey-Fuller (ADF) Test: Checks for stationarity.
+### Estimate a Regression Model and Choosing Estimation Method:
+A regression model is a statistical tool used to examine the relationship between a dependent variable (the outcome you want to explain, e.g., inflation) and one or more independent variables (the factors that may influence the outcome, e.g., interest rates, exchange rates, etc.). The goal is to quantify how changes in the independent variables affect the dependent variable.
   
 ## 4️⃣ Building a forecasting model. 
 
