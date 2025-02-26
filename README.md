@@ -1,19 +1,28 @@
 # Multivariate-time-series-analysis Macroeconomic-Data.
-Multivariate Time Series Analysis – Macroeconomic Data and Its Impact on Financial Institutions & Forex [CASE OF DEVELOPING COUNTRIES]📊
+Multivariate Time Series Analysis – [CASE OF DEVELOPING COUNTRIES; ZAMBIA]📊
 
 📌 Introdcution and Objectives of the Project.
-This project aims to analyze the relationships between multiple macroeconomic variables—such as Inflation, Interest Rates, Exchange Rates, and GDP Growth—to assess their impact on Financial Institutions and the Foreign Exchange (Forex) Market in Zambia. Using Vector Autoregression (VAR) and Vector Error Correction Model (VECM) techniques, we will identify how these factors interact over time and influence financial stability.
+This project aims to analyze the relationships between multiple macroeconomic variables—such as Inflation, Interest Rates, Exchange Rates, e.t.c., and their impact on inflation Market in Zambia. Using Vector Autoregression (VAR) and Vector Error Correction Model (VECM) techniques, we will identify how these factors interact over time and influence inflation.
 
-1️⃣ Explore and visualize trends in a key macroeconomic variable (Five Indicators).
-To understand financial market dynamics, we will analyze the following key indicators:
+1️⃣ Exploring and Understanding key macroeconomic variable (Six Indicators). 
 
-🔹 Inflation Rate (CPI): Affects interest rates, banking profitability, and loan defaults.
+Below are the simplified definition our what we will be working with, independent variables," the term "independent" refers to variables that are manipulated or controlled by the researcher, and their values do not depend on other variables in the study; while "dependent" refers to the variable that is measured and is expected to change based on the manipulation of the independent variable(s).
 
-🔹 Interest Rates (BoZ Policy Rate): Determines borrowing costs and bank liquidity.
+- Inflation_%: The percentage change in the price level of goods and services (dependent variable).
 
-🔹 Exchange Rate (USD/ZMW): Impacts forex reserves, trade balances, and bank exposure.
+- IR_%: Interest rates set by the central bank (independent variable).
 
-🔹 GDP Growth Rate: Measures economic expansion or recession, influencing credit demand.
+- Forex_K/USD: Exchange rate of the local currency (Kwacha) to the US dollar (independent variable).
+
+- BoZ_Reserves_K: Foreign exchange reserves held by the Bank of Zambia (independent variable).
+
+- Currency_In_Circulation: Amount of local currency in circulation (independent variable).
+
+- Copper_US/Tonne: Price of copper per tonne in US dollars (independent variable).
+
+- Maize_(K'/50Kg): Price of maize per 50 kg in Kwacha (independent variable).
+
+
   
 2️⃣ Time-series decomposition.
 
