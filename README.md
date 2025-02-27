@@ -1,6 +1,8 @@
 # Multivariate-time-series-analysis Macroeconomic-Data.
 Multivariate Time Series Analysis – [CASE OF DEVELOPING COUNTRIES; ZAMBIA]📊
 
+![f937cb40117f3a2892a6f391199a3ad2](https://github.com/user-attachments/assets/e6ca1a05-49aa-4aff-bd87-013833702164)
+
 📌 Introduction and Objectives of the Project.
 This project aims to analyze the relationships between multiple macroeconomic variables—such as Inflation, Interest Rates, Exchange Rates, GDP etc.., and their impact on one another.
 
