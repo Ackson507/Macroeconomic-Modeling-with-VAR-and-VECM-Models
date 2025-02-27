@@ -41,5 +41,14 @@ Cointegration is a statistical property of time series variables that indicates 
 - Lag Length: Automatic selection: EViews can automatically choose the optimal lag length based on criteria like AIC or SIC.
 - Critical Values: Significance level for the test (5%=0.05)
 - Variables we will use 2013 Jan - 2024 Nov: Inflation, Interest Rates, Forex_K/USD, BoZ_Reserves_K and Currency_In_Circulation
+  
+## 5️⃣ ADF: Differencing and Testing for stationarity using ADF
+## 5️⃣ Building VAR Model⚕️
+## 6️⃣ Refining and Evaluating the Model
+## 7️⃣ RERENCES
+
+
+
+
 
 
