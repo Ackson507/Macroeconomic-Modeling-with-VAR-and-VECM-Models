@@ -28,14 +28,16 @@ Unlike univariate analysis, this step involves analyzing relationships between m
 
 The relationship between interest rates and inflation is a fundamental concept in economics and monetary policy. The nature of this relationship can vary depending on the economic context, but in most cases, it is governed by the actions of central banks and the behavior of economic agents. Below is a multiple chat indicating the trend of each indicator in the past period under study.
 
+![other](https://github.com/user-attachments/assets/00d64f51-b952-4d8e-aa23-45f56bca8471)
+
   
 ## 3️⃣ What is VAR and VECM Model.
 Both VAR(Vector Autoregression) and VECM(Vector Error Correction Model) are used for modeling multiple time series that influence each other. The key difference is whether the variables are stationary or Non stationary. A VAR model is a system of regression equations where each variable is explained by its own lags and the lags of all other variables in the system, on the other hand a VECM model is used when variables are non-stationary but cointegrated (i.e., they have a long-run equilibrium relationship)
 
 ### What we will use:
-We know that most economic time series and financial data are non stationary, meaning we can use VECM, but first we need to check for cointegration. If the variables we have which are assumed to be non stationary are cointergrated, then we will use VECM Model, otherwise we will achieve stationarity by method of differencing and use VAR. 
-  
-## 4️⃣ Cointergration Test:
+We know that most economic time series and financial data are non stationary, meaning we can use VECM, but first we need to check for cointegration. If the variables we have which are assumed to be non stationary are cointergrated, then we will use VECM Model, otherwise we will achieve stationarity by method of differencing and use VAR. in this project we will use VAR(Vector Autoregression),
+
+## 4️⃣ Cointergration Test for VECM :
 Cointegration is a statistical property of time series variables that indicates a long-term equilibrium relationship between them, even if they are non-stationary in their levels, To check for cointegration in EViews, we will use the Johansen Cointegration Test with the following specification;
 
 - Lag Length: Automatic selection: EViews can automatically choose the optimal lag length based on criteria like AIC or SIC.
@@ -43,7 +45,21 @@ Cointegration is a statistical property of time series variables that indicates 
 - Variables we will use 2013 Jan - 2024 Nov: Inflation, Interest Rates, Forex_K/USD, BoZ_Reserves_K and Currency_In_Circulation
   
 ## 5️⃣ ADF: Differencing and Testing for stationarity using ADF
+![Screenshot 2025-02-28 080937](https://github.com/user-attachments/assets/0a07f423-6bba-4708-90ab-02d9286461d1)
+
+The table above shows how we achived stationarity using ADF UNIT ROOT TEST. As mentioned earlier when using VAR we need to ensure the variables are stationary, to achieve this we used a method of applying differencing to each variable when checking for UNIT ROOT at different levels in order to achieve stationarity such Level(Raw Data), 1st Difference and 2nd Difference.
+
+The table indicatates the Hypothesis we generated and at what level we achieved stationarity. Once we have all the variables stationary we can move to next step.
+
 ## 5️⃣ Building VAR Model⚕️
+
+Once we have our varibales ready then we can Estimate the VAR by using QUICK > Estimate VAR using our Eview 14 and set following configueration
+- VAR Specification: Standard VAR
+- Estimation Sample: Entire Dataset from 2013 January to 2024 November
+- Lag Intervals: We will use default generated lag from Eview [We can do the test to find optimal lags but for this study we will stick to default]
+- Exogenous Varibale: This is where we include an error term by default it is c
+- Endogenous Varibales: This is where we include varibles to in our model
+
 ## 6️⃣ Refining and Evaluating the Model
 ## 7️⃣ RERENCES
 
