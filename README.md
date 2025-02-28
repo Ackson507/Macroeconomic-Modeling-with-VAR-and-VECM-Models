@@ -65,8 +65,22 @@ Once we have our varibales ready then we can Estimate the VAR by using QUICK > E
 Below is a VAR Estimate Model table.
 ![Screenshot 2025-02-28 085804](https://github.com/user-attachments/assets/e500cc21-3ddf-416c-98ef-3f926121a1bd)
 
+- Goodness of Fit: The high R-squared values (e.g., 0.970848) and low standard errors (e.g., 0.393561) suggest the model fits the data well.
 
-## 7️⃣ REFERENCES
+- Significance: The high F-statistic (e.g., 426.2788) indicates the model is statistically significant.
+  
+- The Akaike and Schwarz criteria can be used to compare this model with others.
+  
+- Potential Issues: The large determinant residual covariance values (2.56E+22) might indicate multicollinearity or scaling issues in the data. In this case we will not go deeper.
+
+Stability Check.
+![stability](https://github.com/user-attachments/assets/61570466-982f-41ca-a61f-be3a7903fa3e)
+
+- Since all eigenvalues are inside the unit circle, our model is stable.
+  
+## 7️⃣ DATA REFERENCES
+
+
 
 
 
