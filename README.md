@@ -58,10 +58,15 @@ Once we have our varibales ready then we can Estimate the VAR by using QUICK > E
 - Estimation Sample: Entire Dataset from 2013 January to 2024 November
 - Lag Intervals: We will use default generated lag from Eview [We can do the test to find optimal lags but for this study we will stick to default]
 - Exogenous Varibale: This is where we include an error term by default it is c
-- Endogenous Varibales: This is where we include varibles to in our model
+- Endogenous Varibales: This is where we include differenced varibles in our model
 
-## 6️⃣ Refining and Evaluating the Model
-## 7️⃣ RERENCES
+## 6️⃣ Refining, Interpreting and Evaluating the Model Estimates.
+
+Below is a VAR Estimate Model table.
+![Screenshot 2025-02-28 085804](https://github.com/user-attachments/assets/e500cc21-3ddf-416c-98ef-3f926121a1bd)
+
+
+## 7️⃣ REFERENCES
 
 
 
