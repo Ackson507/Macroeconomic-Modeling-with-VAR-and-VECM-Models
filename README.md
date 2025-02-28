@@ -80,6 +80,12 @@ Stability Check.
   
 ## 7️⃣ DATA REFERENCES
 
+1: International Monetary Fund. https://www.imf.org/external/datamapper/NGDPDPC@WEO/ZMB?zoom=ZMB&highlight=ZMB
+
+2: WORLD BANK https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=ZM
+
+3: Bank of Zambia https://www.boz.zm/statistics.htm
+
 
 
 
